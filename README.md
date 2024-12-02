@@ -1,5 +1,8 @@
-# What is the purpose of this script?
+# What is the purpose of this script?
+
 This script is designed to automate the process of switching between different SSH keys for **GitHub** accounts on your macOS machine. It simplifies the process of managing multiple SSH keys by providing a single command to switch between them.
+
+---
 
 # How to use it
 
