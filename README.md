@@ -3,7 +3,7 @@ This script is designed to automate the process of switching between different S
 
 ---
 
-# How to use it
+## How to use it
 
 ### 1. Clone this repository with the following command:
 
