@@ -1,4 +1,3 @@
-# What is the purpose of this script?
 
 This script is designed to automate the process of switching between different SSH keys for **GitHub** accounts on your macOS machine. It simplifies the process of managing multiple SSH keys by providing a single command to switch between them.
 
@@ -23,7 +22,7 @@ PERSONAL_KEY="id_rsa_my_personal_key"
 
 ---
 
-### 3. ** Make the script executable **
+### 3. Make the script executable 
 
 Run the following command to make the script executable::
 
