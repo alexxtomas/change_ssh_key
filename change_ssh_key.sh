@@ -25,14 +25,17 @@ while [[ $# -gt 0 ]]; do
 done
 
 # Define SSH key paths
-WORK_KEY="your_ssh_key_name_here"
-PERSONAL_KEY="your_ssh_key_name_here"
+WORK_KEY="id_work"
+PERSONAL_KEY="id_personal"
+ADMIN_GLIMMER="id_itsglimmer"
 
 # Determine which key to use
 if [[ "$KEY_NAME" == "work" ]]; then
     SSH_KEY_PATH="$HOME/.ssh/$WORK_KEY"
 elif [[ "$KEY_NAME" == "personal" ]]; then
     SSH_KEY_PATH="$HOME/.ssh/$PERSONAL_KEY"
+elif [[ "$KEY_NAME" == "glimmer" ]]; then
+    SSH_KEY_PATH="$HOME/.ssh/$ADMIN_GLIMMER"
 else
     echo "Invalid key option: $KEY_NAME"
     usage
