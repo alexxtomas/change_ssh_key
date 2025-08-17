@@ -56,6 +56,24 @@ cat <<EOL > "$CONFIG_PATH"
 # Comment this line if you don't want it to be added again.
 Include ~/.orbstack/ssh/config
 
+Host gea-pbx
+HostName 34.45.242.180
+Port 12141
+User atomasllimos
+IdentityFile ~/.ssh/gea
+IdentitiesOnly yes
+ClearAllForwardings yes
+RequestTTY force
+
+Host gea-asr
+HostName 34.44.71.29
+Port 1214
+User atomasllimos
+IdentityFile ~/.ssh/gea
+IdentitiesOnly yes
+ClearAllForwardings yes
+RequestTTY force
+
 # Added by change_ssh_key script
 Host github.com
 AddKeysToAgent yes
