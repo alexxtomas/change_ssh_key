@@ -67,7 +67,7 @@ RequestTTY force
 
 Host gea-asr
 HostName 34.44.71.29
-Port 1214
+Port 12141
 User atomasllimos
 IdentityFile ~/.ssh/gea
 IdentitiesOnly yes
